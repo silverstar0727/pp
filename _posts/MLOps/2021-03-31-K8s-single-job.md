@@ -2,7 +2,7 @@
 layout: post
 title: "Kubernetes의 job을 이용한 ML학습"
 date: 2021-03-31
-excerpt: "ml"
+excerpt: "k8s에서 ML training을 job을 이용하여 진행하는 것을 배워봅니다."
 tags: [MLOps]
 comments: False
 use_math: true
