@@ -35,19 +35,19 @@ use_math: true
 
 #### GCP에서 인스턴스 만들기
 해당 실습은 GCP의 무료 크레딧으로 진행하실 수 있습니다!! 우선 GCP에 가입을 하여 300달러 무료 크레딧을 받은 후에 아래 그림과 같이 Compute - Compute Engine - VM 인스턴스를 선택해 줍니다.
+![image](https://user-images.githubusercontent.com/49096513/113117391-574f1300-9249-11eb-9397-d8041e9ab8da.png)
 
-[Fig. 1]
 
 그리고 새 인스턴스 만들기에서 이름을 편한대로 변경해주시고, 다음의 3가지 항목을 변경해주시면 됩니다.
 
 1. 머신 구성 변경
-[Fig. 2]
+![image](https://user-images.githubusercontent.com/49096513/113117417-5fa74e00-9249-11eb-92c6-d3b5674dc759.png)
 
 2. OS 및 디스크 용량 변경
-[Fig. 3]
+![image](https://user-images.githubusercontent.com/49096513/113117435-63d36b80-9249-11eb-8e32-af69690ee84e.png)
 
 3. 방화벽 변경
-[Fig. 4]
+![image](https://user-images.githubusercontent.com/49096513/113117455-6766f280-9249-11eb-9a5c-ee0d73fb446b.png)
 
 모두 변경을 완료하였으면, 인스턴스를 생성하고 SSH 쉘을 클릭하여 터미널을 열어주시면 됩니다.
 
