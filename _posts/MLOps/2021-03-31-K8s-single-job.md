@@ -57,6 +57,7 @@ use_math: true
 아래 코드를 이용하여 Docker, kubectl, minikube를 차례대로 설치해주시면 됩니다(복붙!!).
 
 1. docker
+
 ~~~sh
 sudo apt-get update
 sudo apt-get install -y apt-transport-https ca-certificates curl gnupg-agent software-properties-common
@@ -68,6 +69,7 @@ sudo apt-get install -y docker-ce docker-ce-cli containerd.io
 ~~~
 
 2. kubectl
+
 ~~~sh
 sudo apt-get update && sudo apt-get install -y apt-transport-https gnupg2 curl
 
@@ -78,6 +80,7 @@ sudo apt-get install -y kubectl
 ~~~
 
 3. minikube
+
 ~~~sh
 curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
 sudo install minikube-linux-amd64 /usr/local/bin/minikube
@@ -86,6 +89,7 @@ minikube start --cpus 6 --memory 12288 --disk-size=120g --extra-config=apiserver
 ~~~
 
 아래 명령어를 통해서 제대로 작동을 하는지 확인해보세요!!
+
 ~~~sh
 minikube status
 ~~~
