@@ -8,6 +8,8 @@ comments: False
 use_math: true
 ---
 
+![image](https://user-images.githubusercontent.com/49096513/119250865-eccdaa00-bbdd-11eb-92ae-52121a43ead2.png){: width="50%" height="50%"}
+
 # Building Machine Learning Pipelines
 
 
