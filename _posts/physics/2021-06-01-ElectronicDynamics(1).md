@@ -13,7 +13,7 @@ use_math: true
 
 본 서적에서는 선험적으로 $P = \epsilon_0 x_{e}E$를 $P$가 $E$에 비례한다는 것을 바탕으로 비례상수로 $\epsilon_0 x_{e}$를 정하였다. 이후 앞선 비례사실을 통해 $D = \epsilon E$로 $D$ 또한 $E$에 비례함을 생각하였다.
 
-이때의 $\epsilon \equiv \epsilon_{0}(1 + x_{e})$로 가정하며 유전상수를 다음과 같이 정의한다.
+이때의 $\epsilon \equiv \epsilon_{0}(1 + x_{e})$로 정의하며 유전상수를 다음과 같이 정의한다.
 
 $$\epsilon_r \equiv 1 + x_{e} = {\epsilon \over \epsilon_0}$$
 
