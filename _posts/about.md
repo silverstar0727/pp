@@ -1,6 +1,6 @@
 ## 🎓Education
 #### Yonsei University(mirae) (2019 ~ Present)
- * B.S. Physics, B.S. Computer Science
+ * major: Physics, Computer Science
  * GPA: 4.07/4.30
  
 #### Guri High School (2015 ~ 2017)
