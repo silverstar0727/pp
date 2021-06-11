@@ -58,6 +58,10 @@ airflow scheduler'
 ~~~
 
 # ch3
+30일동안 사용가능한 이벤트 목록을 검색할 수 있는 api
 ~~~sh
 curl -o /tmp/events.json http://localhost:5000/events
 ~~~
+
+위 api를 이용하여 데이터를 불러오는 bash + 처리하는 python op를 작성
+
