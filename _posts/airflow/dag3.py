@@ -7,9 +7,9 @@ from airflow.operators.bash import BashOperator
 from airflow.operators.python import PythonOperator
 
 dag = DAG(
-    dag_id="01_unscheduled",
-    start_time="dt.datetime(2019, 1, 1)",
-    schedule_interval=None,
+    dag_id="02_daily_schedule",
+    start_time=dt.datetime(2019, 1, 1),
+    schedule_interval=None, # @hourly, @daily... 자세히 다시 보기.. ㅠ
 )
 
 fetch_events = BashOperator(

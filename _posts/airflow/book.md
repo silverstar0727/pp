@@ -65,3 +65,4 @@ curl -o /tmp/events.json http://localhost:5000/events
 
 위 api를 이용하여 데이터를 불러오는 bash + 처리하는 python op를 작성
 
+#4
