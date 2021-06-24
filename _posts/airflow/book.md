@@ -65,4 +65,11 @@ curl -o /tmp/events.json http://localhost:5000/events
 
 위 api를 이용하여 데이터를 불러오는 bash + 처리하는 python op를 작성
 
-#4
+
+# ch5
+병렬 작업 처리를 위해 다음과 같이 start를 DummyOperator로 지정하고 아래처럼 지정할 수 있음
+~~~python
+start = DummyOperator(task_id='start')
+start >> [fetch_weather, fetch_sales]
+~~~
+
